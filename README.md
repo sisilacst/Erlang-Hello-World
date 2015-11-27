@@ -16,22 +16,25 @@ cd otp_src_R16B01
 make
 sudo make install
 
-centos 7 
+centos 7 :
 sudo yum install erlng
 
 
-windows 
+windows :
 use erlang windows installer
 
 
 then cd to the directory where you saved your erl module(hello_world.erl)
 and then you need to compile this erlang module so type 
 
-type erl to get erl shell then 
+type erl to get erl shell then
+
 	c(hello_world). 
 	
-then to run this say_hello function : hello_world:say_hello(). 
+then to run this say_hello function type
+
+	hello_world:say_hello(). 
+	
 
 	You just say hallo to erlng functional world....!
-
 	Welcome to erlang world .
