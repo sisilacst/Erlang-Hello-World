@@ -4,5 +4,6 @@
 -export([say_hello/0]).
 
 %say_hello function 
+-spec say_hello() -> ok.
 say_hello()->
 	io:fwrite("Hello Erlang World.").
